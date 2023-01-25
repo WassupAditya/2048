@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#btn{
+background-color: #bbada0;
+margin-left: 4vw;
+border: none;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+justify-content: space-between;
+}
+#board {
+    width: 400px;
+    height: 400px;
+    
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #d5d7ef;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #cae7ec;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #7ac5f4;
+    color: white;
+}
+
+.x16{
+    background-color: #75d9f5;
+    color: white;
+}
+
+.x32{
+    background-color: #5fcbf5;
+    color: white;
+}
+
+.x64{
+    background-color: #3bc1f6;
+    color: white;
+}
+
+.x128{
+    background-color: #71caed;
+    color: white;
+}
+
+.x256{
+    background-color: #63aded;
+    color: white;
+}
+
+.x512{
+    background-color: #51beed;
+    color: white;
+}
+
+.x1024{
+    background-color: #44b5ee;
+    color: white;
+}
+
+.x2048{
+    background-color: #30c3ec;
+    color: white;
+}
+
+.x4096 {
+    background-color: #3dbafe;
+    color: white;
+}
+
+.x8192 {
+    background-color: #20a6ff;
+    color: white;
+}
